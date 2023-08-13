@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController1 : MonoBehaviour
 {
     public enum TargetEnum
     {
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         else if (mode == DriveMode.Manual)
         {
             // Xử lý lái xe thủ công
-            ManualDrive();
+              ManualDrive();
         }
     }
 
